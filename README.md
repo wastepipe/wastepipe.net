@@ -2,4 +2,7 @@
 Docker Compose files on wastepipe.net
 
 ## proxy
-Reverse proxy uses jwilder/nginx-proxy
+Reverse proxy container images uses jwilder/nginx-proxy
+
+## diary
+tDiary container images uses machu/tdiary
