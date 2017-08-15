@@ -26,6 +26,7 @@ services:
       - ./app/tdiary.conf:/usr/src/app/tdiary.conf
       - ./app/data:/usr/src/data
       - ./app/theme:/usr/src/app/theme
+      - ./app/plugin/bootstrap-navi.rb:/usr/src/app/misc/plugin/bootstrap-navi.rb
     networks:
       - private-diary
     restart: always

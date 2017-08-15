@@ -1,3 +1,4 @@
 /app/data/*
 /app/theme/*
+/app/plugin/*
 /app/.htpasswd
