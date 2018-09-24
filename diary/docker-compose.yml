@@ -18,7 +18,7 @@ services:
     restart: always
 
   app:
-    image: machu/tdiary
+    image: tdiary/tdiary
     container_name: diary-app
     volumes:
       - ./app/.htaccess:/usr/src/app/.htaccess

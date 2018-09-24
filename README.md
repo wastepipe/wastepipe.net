@@ -19,7 +19,7 @@ hosts:
 tDiary container images uses:
 
 * nginx
-* machu/tdiary
+* tdiary/tdiary
 
 hosts:
 * <http://diary.wastepipe.net>
