@@ -22,7 +22,7 @@ services:
     container_name: diary-app
     volumes:
       - ./app/.htaccess:/usr/src/app/.htaccess
-      - ./app/.htpasswd:/usr/src/app/.htpasswd
+      - ./app/.htpasswd:/usr/src/app/data/.htpasswd
       - ./app/tdiary.conf:/usr/src/app/tdiary.conf
       - ./app/data:/usr/src/data
       - ./app/theme:/usr/src/app/theme
