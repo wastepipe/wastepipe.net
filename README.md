@@ -2,9 +2,10 @@
 Docker Compose files on wastepipe.net
 
 ## proxy
-Reverse proxy container images uses:
+Reverse proxy and Let's Encrypt certification container images uses:
 
 * jwilder/nginx-proxy
+* jrcs/letsencrypt-nginx-proxy-companion
 
 ## blog
 WordPress container images uses:
@@ -13,7 +14,7 @@ WordPress container images uses:
 * mysql
 
 hosts:
-* <http://blog.wastepipe.net>
+* <https://blog.wastepipe.net>
 
 ## diary
 tDiary container images uses:
@@ -22,7 +23,7 @@ tDiary container images uses:
 * tdiary/tdiary
 
 hosts:
-* <http://diary.wastepipe.net>
+* <https://diary.wastepipe.net>
 
 ## www
 Web container images uses:
@@ -30,5 +31,5 @@ Web container images uses:
 * nginx
 
 hosts:
-* <http://wastepipe.net>
-* <http://www.wastepipe.net>
+* <https://wastepipe.net>
+** <https://www.wastepipe.net>
