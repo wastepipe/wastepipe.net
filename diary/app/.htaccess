@@ -20,7 +20,7 @@ DirectoryIndex index.rb
 <Files update.rb>
 	AuthName      tDiary
 	AuthType      Basic
-	AuthUserFile  /usr/src/app/.htpasswd
+	AuthUserFile  /usr/src/app/data/.htpasswd
 	Require user  wastepipe
 </Files>
 
