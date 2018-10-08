@@ -32,4 +32,4 @@ Web container images uses:
 
 hosts:
 * <https://wastepipe.net>
-** <https://www.wastepipe.net>
+* <https://www.wastepipe.net> (redirect to wastepipe.net)
